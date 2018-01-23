@@ -28,7 +28,7 @@ public class testweblogin {
 
         driver.get("http://www.gmail.com");
         driver.findElement(By.id("identifierId")).clear();
-        driver.findElement(By.id("identifierId")).sendKeys("contactkrishnag@gmail.com");
+        driver.findElement(By.id("identifierId")).sendKeys("Contactkrishnag@gmail.com");
         driver.findElement(By.id("identifierId")).sendKeys(Keys.ENTER);
       //  driver.findElement(By.className("RveJvd snByac")).click();
         Thread.sleep(1000);
